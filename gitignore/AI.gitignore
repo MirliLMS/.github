@@ -46,3 +46,6 @@ GEMINI.md
 .playwright-mcp/
 .playwright-cli/
 .superpowers/
+# Graphify knowledge graph (локальный, пересобирается)
+graphify-out/
+.graphify_*

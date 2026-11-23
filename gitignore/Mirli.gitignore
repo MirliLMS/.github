@@ -49,6 +49,9 @@ GEMINI.md
 .playwright-mcp/
 .playwright-cli/
 .superpowers/
+# Graphify knowledge graph (локальный, пересобирается)
+graphify-out/
+.graphify_*
 
 # ===== Secrets and private data =====
 # Environment files (keep only examples)
