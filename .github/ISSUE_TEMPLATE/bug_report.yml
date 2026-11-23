@@ -1,0 +1,43 @@
+name: 🐞 Баг
+description: Что-то работает не так
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: Что случилось
+      description: Коротко опиши проблему.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Как воспроизвести
+      placeholder: |
+        1. Открыть ...
+        2. Нажать ...
+        3. Увидеть ошибку
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Что ожидалось
+    validations:
+      required: true
+  - type: dropdown
+    id: env
+    attributes:
+      label: Где
+      options:
+        - Локально
+        - Dev / Staging
+        - Production
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Логи и скриншоты
+      description: Без токенов, паролей и персональных данных.
+      render: shell

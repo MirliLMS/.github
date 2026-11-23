@@ -1,0 +1,14 @@
+# ===== Docker and local data volumes (MySQL, MongoDB, S3/MinIO) =====
+docker-compose.override.yml
+compose.override.yml
+.docker/
+/data/
+/volumes/
+mysql-data/
+mysql_data/
+mongo-data/
+mongo_data/
+mongodb-data/
+minio-data/
+minio_data/
+s3-data/

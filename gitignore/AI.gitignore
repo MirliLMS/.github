@@ -1,0 +1,48 @@
+# ===== AI tools: folders and files =====
+# Claude / Claude Code
+.claude/
+CLAUDE.md
+CLAUDE.local.md
+.mcp.json
+# Cursor
+.cursor/
+.cursorrules
+.cursorignore
+.cursorindexingignore
+# Windsurf / Codeium
+.windsurf/
+.windsurfrules
+.codeium/
+# GitHub Copilot
+.copilot/
+.github/copilot-instructions.md
+.github/instructions/
+.github/prompts/
+# OpenAI Codex / generic agents
+.codex/
+AGENTS.md
+# Gemini
+.gemini/
+GEMINI.md
+# Aider
+.aider*
+# Continue / Cline / Roo / Kilo
+.continue/
+.clinerules
+.clinerules/
+.cline/
+.roo/
+.roomodes
+.kilocode/
+# Kiro / Junie / Amazon Q
+.kiro/
+.junie/
+.amazonq/
+# Tabnine / SpecStory / Zencoder
+.tabnine/
+.specstory/
+.zencoder/
+# Browser automation / MCP artifacts
+.playwright-mcp/
+.playwright-cli/
+.superpowers/

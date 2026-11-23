@@ -1,0 +1,225 @@
+# Mirli — combined .gitignore (AI, secrets, C#, Rust, Node/React/TS, Python, Docker/DB, common)
+# Source: github.com/MirliLMS/.github/tree/main/gitignore
+
+# ===== AI tools: folders and files =====
+# Claude / Claude Code
+.claude/
+CLAUDE.md
+CLAUDE.local.md
+.mcp.json
+# Cursor
+.cursor/
+.cursorrules
+.cursorignore
+.cursorindexingignore
+# Windsurf / Codeium
+.windsurf/
+.windsurfrules
+.codeium/
+# GitHub Copilot
+.copilot/
+.github/copilot-instructions.md
+.github/instructions/
+.github/prompts/
+# OpenAI Codex / generic agents
+.codex/
+AGENTS.md
+# Gemini
+.gemini/
+GEMINI.md
+# Aider
+.aider*
+# Continue / Cline / Roo / Kilo
+.continue/
+.clinerules
+.clinerules/
+.cline/
+.roo/
+.roomodes
+.kilocode/
+# Kiro / Junie / Amazon Q
+.kiro/
+.junie/
+.amazonq/
+# Tabnine / SpecStory / Zencoder
+.tabnine/
+.specstory/
+.zencoder/
+# Browser automation / MCP artifacts
+.playwright-mcp/
+.playwright-cli/
+.superpowers/
+
+# ===== Secrets and private data =====
+# Environment files (keep only examples)
+.env
+.env.*
+*.env
+!.env.example
+!.env.sample
+!.env.template
+# Keys and certificates
+*.pem
+*.key
+*.p8
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.crt
+*.cer
+id_rsa*
+id_ed25519*
+id_ecdsa*
+*.ppk
+# Credential files
+secrets.json
+*.secrets.json
+secrets.*.json
+credentials.json
+*credentials*.json
+service-account*.json
+client_secret*.json
+token.json
+.htpasswd
+.netrc
+.npmrc
+.pypirc
+.s3cfg
+rclone.conf
+.aws/
+.azure/
+.gcloud/
+kubeconfig
+*.kubeconfig
+*.tfvars
+*.tfstate
+*.tfstate.*
+# .NET local settings / user secrets
+appsettings.Local.json
+appsettings.*.Local.json
+appsettings.Production.json
+appsettings.Staging.json
+# Database dumps and local data
+*.sql.gz
+*.sql.zip
+*.dump
+*.bak
+/dumps/
+/dump/
+/backup/
+/backups/
+
+# ===== C# / .NET =====
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+publish/
+artifacts/
+TestResults/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.nupkg
+*.snupkg
+.nuget/packages/
+project.lock.json
+*.dbmdl
+_ReSharper*/
+*.DotSettings.user
+.vs/
+
+# ===== Rust =====
+target/
+**/*.rs.bk
+*.pdb
+# Keep Cargo.lock for binaries; uncomment for libraries:
+# Cargo.lock
+
+# ===== Node / TypeScript / React / Tailwind / Ant Design =====
+node_modules/
+.pnpm-store/
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+.pnp.*
+dist/
+build/
+out/
+.next/
+.nuxt/
+.vite/
+.turbo/
+.vercel/
+.cache/
+.parcel-cache/
+storybook-static/
+coverage/
+*.tsbuildinfo
+next-env.d.ts
+.eslintcache
+.stylelintcache
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+/env/
+.python-version
+*.egg-info/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+.ipynb_checkpoints/
+instance/
+
+# ===== Docker and local data volumes (MySQL, MongoDB, S3/MinIO) =====
+docker-compose.override.yml
+compose.override.yml
+.docker/
+/data/
+/volumes/
+mysql-data/
+mysql_data/
+mongo-data/
+mongo_data/
+mongodb-data/
+minio-data/
+minio_data/
+s3-data/
+
+# ===== OS, editors, logs =====
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*~
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/launch.json
+*.log
+logs/
+tmp/
+temp/

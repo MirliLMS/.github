@@ -1,0 +1,23 @@
+# ===== C# / .NET =====
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+publish/
+artifacts/
+TestResults/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.nupkg
+*.snupkg
+.nuget/packages/
+project.lock.json
+*.dbmdl
+_ReSharper*/
+*.DotSettings.user
+.vs/

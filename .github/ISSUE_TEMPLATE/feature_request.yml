@@ -1,0 +1,37 @@
+name: ✨ Задача / фича
+description: Новая функциональность или улучшение
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: goal
+    attributes:
+      label: Зачем
+      description: Какую проблему решаем и для кого.
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Что сделать
+    validations:
+      required: true
+  - type: textarea
+    id: done
+    attributes:
+      label: Критерии готовности
+      placeholder: |
+        - [ ] ...
+        - [ ] ...
+  - type: dropdown
+    id: area
+    attributes:
+      label: Область
+      multiple: true
+      options:
+        - Backend (C#)
+        - Backend (Rust)
+        - Frontend (React)
+        - Python / скрипты
+        - Инфраструктура / Docker
+        - База данных
+        - Дизайн
